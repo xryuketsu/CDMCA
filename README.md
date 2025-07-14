@@ -4,7 +4,34 @@
 A scalable, testable, and maintainable architecture pattern for .NET-based enterprise applications, optimized for strong separation of concerns, parallel front-end/back-end development, and long-term stability.
 
 > ⚠️ Supports both .NET and non-.NET frontends (e.g., Blazor, Angular, React). .NET clients use typed **Connectors**, while non-.NET apps interact directly with the API.
-
+>
+> 🔧 **Note:**
+> This architecture is intentionally **kept minimal and clean** to serve as a **starting point**. It is fully **extensible** based on project requirements.
+>
+> ✅ **API Layer can be implemented using**:
+>
+> * **REST** (e.g., ASP.NET Web API)
+> * **gRPC** for high-performance internal or external service communication
+>
+> ✅ **Azure-based Sample Usage**:
+>
+> * **API Layer**: Azure App Service or Azure Kubernetes Service (AKS)
+> * **Data Layer**: Azure SQL, Cosmos DB, or Table Storage
+> * **Identity/Auth**: Azure Active Directory B2C or Azure Entra ID
+> * **Messaging**: Azure Service Bus or Azure Event Grid
+> * **Logging & Tracing**: Azure Monitor, Application Insights, Log Analytics
+> * **Secrets & Config**: Azure Key Vault and Azure App Configuration
+> * **CI/CD**: Azure DevOps Pipelines with Infrastructure-as-Code (Bicep or Terraform)
+>
+> You can also integrate:
+>
+> * **API Gateways** (e.g., Azure API Management, YARP)
+> * **BFF** (Backend-for-Frontend) layers for client-specific optimization
+>
+> CDMCA is ideal for evolving between:
+>
+> * **Modular Monolith** → **Hybrid Composable** → **Microservices**
+>
 ---
 
 ## 🧱 Layered Architecture Overview
