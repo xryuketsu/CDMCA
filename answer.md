@@ -201,6 +201,3 @@ To address these in my current stack, I use **Azure-native tools**, including:
 🔗 My public clean architecture template:
 [https://github.com/xryuketsu/CDMCA](https://github.com/xryuketsu/CDMCA)
 (Clean Domain-Driven Modular-Centric Architecture)
-
-🔧 Currently applied in my personal HRIS project:
-[https://github.com/xryuketsu/CyraSoft.Hris](https://github.com/xryuketsu/CyraSoft.Hris)
