@@ -180,4 +180,3 @@ Database             React / Angular → HTTP → API
 | Hybrid/Composable     | Mixed      | Internal + public clients         | Multi-UI, shared logic, OpenAPI        | Careful versioning, mixed test paths   |
 
 ---
-> Architecture authored by **Ronjun Cajilig**, refined for modern .NET multi-client enterprise platforms.
